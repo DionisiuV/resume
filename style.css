@@ -1,0 +1,184 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: #222;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  padding: 4rem;
+  background-color: rgb(27, 27, 27);
+}
+
+ol {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+ol li {
+  margin-top: 0.2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  padding: 0.75rem 0;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: rgb(172, 49, 0);
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+div + div {
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+}
+
+.profile p {
+  color: #888;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.contact li {
+  color: #888;
+  text-transform: uppercase;
+  text-align: right;
+  padding: 1rem;
+  border-bottom: 1px solid #888;
+  /* border-top: 1px solid #888; */
+}
+
+.contact ul {
+  margin-top: -2rem;
+}
+
+.contact li {
+  font-size: 0.8rem;
+}
+
+.skills > ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  justify-items: center;
+}
+
+.event {
+  display: grid;
+  grid-template-columns: 4ch 1fr;
+}
+
+.event + .event {
+  padding-top: 1rem;
+}
+
+.content {
+  border-left: 1px solid #888;
+  margin-left: 0.5rem;
+  padding-left: 1rem;
+}
+
+.duration {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 0.9;
+}
+
+.content > p {
+  margin-bottom: 1rem;
+}
+
+.resume {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-gap: 5rem;
+  background-color: #fff;
+  padding: 3rem;
+  max-width: 1024px;
+  margin: auto;
+  box-shadow: 0 0.8rem 2rem rgb(61, 61, 61);
+}
+
+.education {
+  margin-top: 3rem;
+}
+
+.contact ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact ul li i {
+  font-size: 1.1rem;
+}
+
+.content ul li + li + li {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 1090px) {
+  body {
+    padding: 0;
+  }
+
+  .resume {
+    display: block;
+    padding: 1rem;
+  }
+
+  .skills {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+.experience h3 {
+  margin-bottom: 1rem;
+}
+
+.experience {
+  margin-top: 1.6rem;
+}

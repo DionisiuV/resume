@@ -106,7 +106,7 @@ a {
 
 .event {
   display: grid;
-  grid-template-columns: 4ch 1fr;
+  grid-template-columns: 6ch 1fr;
 }
 
 .event + .event {
